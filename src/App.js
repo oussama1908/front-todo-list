@@ -38,8 +38,7 @@ function App() {
 
         {/* User routes */}
         <Route
-          // index
-          path="/"
+          index
           element={<><Navbar type="user" /> <Home /></>}
         />
         <Route
