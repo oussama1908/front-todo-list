@@ -6,8 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux'; 
 import store from './redux/store'; 
 import axios from 'axios';
-// axios.defaults.baseURL="https://todo-b1t7.onrender.com/api/"
-axios.defaults.baseURL="https://todolist-mernstack.onrender.com/api"
+
+axios.defaults.baseURL="https://todomernstack.onrender.com/api/"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
