@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { clearUser, logout } from "../redux/slices/userSlices";
-import "../componentstyles/navbarstyle.css";
+import "./componentstyles/navbarstyle.css";
 
 const Navbar = ({ type, userName }) => {
   const { isAuth } = useSelector((state) => state.user);
