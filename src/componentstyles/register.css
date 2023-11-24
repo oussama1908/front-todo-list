@@ -1,0 +1,116 @@
+.facebook-button{
+   
+    left: -100%;
+    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 15px;
+    transition: all 0.4s ease;;
+  }
+.register , .login-button{
+  background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+    font-size: 15px;
+    border:1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.9s ease, color 0.3s ease;
+    width:100px !important;
+    height: 35px !important;  
+    padding: 1px;  
+}
+.login-button:hover{
+  background-color: #ffffff; /* Adjust the hover background color */
+  color: #fff; /* Adjust the hover text color */  
+  box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a lighter white shadow when focused */
+
+}
+.login-button:focus{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.944); /* Add a lighter white shadow when focused */
+  outline: none;
+}
+.login-button:active{
+  box-shadow: none; /* Remove the shadow when clicked */
+}
+  .login-container{
+    background-color: #ebf4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px !important;
+    height: 500px;
+    gap: 20px;
+    overflow: hidden;
+    background-color: rgba(222, 206, 206, 0.447);
+position: relative;
+  z-index: 5;
+  width: 100%;
+  background: rgba(247, 240, 240, 0.119);
+  box-shadow: 0px 0px 1rem 0 rgba(9, 9, 9, 0.463);
+  border-radius: 20px;
+  border: 1px solid rgba(236, 213, 213, 0.695);
+  text-align: center;
+  backdrop-filter: blur( 10.0px );
+  -webkit-backdrop-filter: blur( 10.0px );
+  padding:15px;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    
+    /*background-color: #8EC5FC;*/
+  }
+
+  input {
+    height: 25px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+  .btn{
+    left: -100%;
+    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+
+  }
+  .loginresponse1 {
+    position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: red;
+  top: 25px !important; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, 50%); /* Centering trick */
+  width: 200px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  font-size: 18px;
+  }
+  
+  .registername{
+    position: fixed;
+    top: 25px; /* Center vertically */
+    font-size: 25px;
+
+  }
+
+ 

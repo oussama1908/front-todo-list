@@ -1,0 +1,134 @@
+ 
+ 
+ .addtasksbackground{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: 1230px;
+    
+    align-items: center;
+    color: #1877f2; /* Facebook's primary blue color */
+
+}
+
+form {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+   
+  padding:30px;
+
+}
+.textarea-style:hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.182); /* Add a light white shadow on hover */
+
+}
+.textarea-style:focus{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.558); /* Add a lighter white shadow when focused */
+  outline: none;
+}
+.textarea-styleactive{
+  box-shadow: none; /* Remove the shadow when clicked */
+
+}
+.textarea-style{
+    width:670px;
+    height: 20px ! important;
+    border:1px solid rgb(116, 116, 211);
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:3px;
+    background: inherit;
+    z-index: 10;
+  box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+  border-radius: 10px;
+  border: 1px solid rgba(236, 213, 213, 0.15);
+  backdrop-filter: blur( 10.0px );
+  -webkit-backdrop-filter: blur( 50.0px );
+  background-color: rgba(255, 255, 255, 0.642) !important;
+
+}
+.title-style{
+    width:150px;
+    padding:3px;
+    margin-top: 20px;
+    height: 20px ! important;
+    box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 213, 213, 0.15);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    background-color: rgba(255, 255, 255, 0.642) !important;
+    transition: box-shadow 0.3s ease
+}
+.title-style:hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.182); /* Add a light white shadow on hover */
+
+}
+.title-style:focus{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.558); /* Add a lighter white shadow when focused */
+  outline: none;
+}
+.title-style:active{
+  box-shadow: none; /* Remove the shadow when clicked */
+
+}
+label{
+    margin-top:25px
+}
+
+.date-style{
+    margin-top: 20px;
+    width:120px;
+    border:1px solid #1877f2;
+    color: #1877f2; /* Facebook's primary blue color */
+    padding: 3px;
+    box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 213, 213, 0.15);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    background-color: rgba(255, 255, 255, 0.642) !important;
+    height: 20px ! important;
+
+}
+.date-style:hover{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.182); /* Add a light white shadow on hover */
+
+}
+.date-style:focus{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.558); /* Add a lighter white shadow when focused */
+  outline: none;
+}
+.date-style:active{
+  box-shadow: none; /* Remove the shadow when clicked */
+}
+
+.button-addtask{
+    left: -100%;
+    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+    margin-top:20px;
+    font-size: 15px;
+    border:1px;
+    border:1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.9s ease, color 0.3s ease;
+    width:100px;
+    
+}
+
+.button-addtask:hover{
+  background-color: #ffffff; /* Adjust the hover background color */
+  color: #fff; /* Adjust the hover text color */  
+  box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a lighter white shadow when focused */
+
+}

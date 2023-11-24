@@ -1,0 +1,318 @@
+body{
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  
+  }
+    
+  .taskcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+  }
+/* .addtasksbackground{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1230px !important;
+
+} */
+.filer-style{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px !important;
+  margin-left:120px;
+
+}
+.cartecontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+   gap:15px;
+   
+}
+
+/* .cartinnerbackgrounf{
+  
+  border-radius: 15px;
+  width:1100px;
+} */
+
+/* navbar glass */
+.cartinner{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    height: 50px;
+   width: 1400px !important;
+  box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.485);
+  border-radius: 10px;
+  border: 1px solid rgba(236, 213, 213, 0.15);
+  text-align: center;
+  backdrop-filter: blur( 10.0px );
+  -webkit-backdrop-filter: blur( 10.0px );
+  background:inherit;
+  background-color: #d4dce32c;
+
+
+}
+
+.statusstyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap:4px;
+  width: 1700px;
+    
+}
+
+.statusstyle2{
+  margin-left:60px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap:30px;
+padding:10px;
+
+}
+
+.title-style2{
+  height: 30px !important;
+    box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 213, 213, 0.15);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    background-color: rgba(235, 239, 242, 0.948) !important;
+    width: 300px !important;
+}
+.title-style2:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.182); /* Add a light white shadow on hover */
+  
+  }
+  .title-style2:focus{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.558); /* Add a lighter white shadow when focused */
+    outline: none;
+  }
+  .title-style2:active{
+    box-shadow: none; /* Remove the shadow when clicked */
+  }
+  
+select , .title-style2{
+    border:1px solid #1877f2;
+    color: #1877f2; /* Facebook's primary blue color */
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 213, 213, 0.15);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    background-color: rgba(235, 239, 242, 0.948) !important;
+}
+
+.button-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.button-addtask3{  left: -100%;
+    background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
+  , #0073e6);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+    font-size: 15px;
+    border:1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.9s ease, color 0.3s ease;
+}
+.button-addtask3:hover{
+    background-color: #ffffff; /* Adjust the hover background color */
+    color: #fff; /* Adjust the hover text color */  
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a lighter white shadow when focused */
+
+  }
+  .button-addtask3:focus{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.944); /* Add a lighter white shadow when focused */
+    outline: none;
+  }
+  .button-addtask3:active{
+    box-shadow: none; /* Remove the shadow when clicked */
+  }
+.button-addtask4{
+    background: -webkit-linear-gradient(right,#660f00,#801700,#b32700
+  , #e61700);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    color:white;
+    height: 35px;
+    font-size: 20px;
+    font-size: 15px;
+    border:1px;
+    border:1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.9s ease, color 0.3s ease;
+}
+.button-addtask4:hover{
+    background-color: #ffffff; /* Adjust the hover background color */
+    color: #fff; /* Adjust the hover text color */  
+    box-shadow: 0 0 10px rgb(255, 255, 255); /* Add a lighter white shadow when focused */
+
+  }
+
+
+
+
+
+
+.cartinner::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 0px 0px 1rem 10rem rgb(255,255,255,0.2); 
+  filter: blur(10px);
+}
+
+
+
+
+
+
+ 
+input {
+    z-index: 10;
+    width: fit-content !important;
+    box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+    border-radius: 10px;
+    border: 1px solid rgba(236, 213, 213, 0.15);
+    text-align: center;
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 50.0px );
+    padding:15px;
+    background-color: #d4dce339;
+}
+
+
+ 
+  
+    
+
+ 
+.prioritystyler {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+}
+.prioritystyler > select {
+  background-color: rgba(255, 255, 255, 0.807) !important;
+
+}
+.labelselcet{
+    padding: 0px;
+    margin: 0px;
+}
+
+.statusstyle2 input {
+    width:120px ;
+    padding:5px;
+}
+.statusstyle2 textarea {
+    align-items: center;
+    justify-content: center;
+width:350px;
+font-size: 20px;
+border-radius: 10px;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    color: #e60f00;
+  }
+
+  .inputdescription h2 {
+    position: relative;
+    width: 500px;
+    padding: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+    transition: all 0.3s ease; /* Add a smooth transition effect if needed */
+  }
+  
+  .innercarttitle{
+
+    width: 200px;
+  }
+
+  .inputp{
+    background: inherit;
+    z-index: 10;
+  box-shadow: 0px 0px 1rem 0 rgba(15, 14, 14, 0.053);
+  border-radius: 10px;
+  border: 1px solid rgba(236, 213, 213, 0.15);
+  text-align: center;
+  backdrop-filter: blur( 10.0px );
+  -webkit-backdrop-filter: blur( 50.0px );
+  background-color: #d4dce339;
+  }
+
+  /* .inputput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20px !important;
+    width: 30px !important;
+    background:inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  } */
+
+  .pa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:inherit !important;
+    width: fit-content !important;
+    gap:8px;
+    background: inherit !important;
+
+
+  }
+  /* .inputput.put{
+    margin:0px !important;
+    width: 30px !important;
+    background:inherit !important;
+  } */
+
+  input[type="checkbox"] {
+    background: inherit !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0px !important;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+}
